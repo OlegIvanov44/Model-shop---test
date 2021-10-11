@@ -1,27 +1,52 @@
 @import "nullstyle.scss";
 
 .wrapper {
+   width: 100%;
    min-height: 100%;
    overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   &._loaded {
+   }
 }
 
 //Миксины=============================
 @import "mixins";
+//Миксины=============================
 
 
 
 
 
  //Шрифты=============================
+ //Подключаю шрифты===================
  @import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,500,700);
  @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
  @import "fonts";
-//Подключаю шрифты
-
+//Подключаю шрифты====================
 
 
 //Шрифт по умолчанию
 $fontFamily: "Roboto";
+//Шрифт по умолчанию
+
+//Переменные========================
+$minWidth: 320px;
+$maxWidth: 1920px;
+$maxWidthContainer: 1460px;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+//Переменные=========================
+
+//Основная сетка=====================
+._container {
+   max-width: $maxWidthContainer + px;
+   margin: 0 auto;
+   padding: 0px 20px;
+   }
+}
 
 
 
