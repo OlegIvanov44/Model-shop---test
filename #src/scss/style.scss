@@ -20,15 +20,17 @@
 
  //Шрифты=============================
  //Подключаю шрифты===================
+@import "fonts";
  @import url(https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,500,700);
  @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
- @import "fonts";
+ 
 //Подключаю шрифты====================
 
 
 //Шрифт по умолчанию
 $fontFamily: "Roboto";
 //Шрифт по умолчанию
+
 
 //Переменные========================
 $minWidth: 320px;
